@@ -8,6 +8,8 @@ Let it slip, the pulse slows. Ignore it long enough, it flatlines. Press it when
 
 No notifications. No streaks. No score. Just a honeycomb that goes quiet when your life does.
 
+![Glance](docs/assets/glance-front.jpg)
+
 ## How it works
 
 Each node pulses at a rate tied to how long it's been since you last pressed it. Fresh: full brightness, ~60bpm. A few days gone: dimmer, slower. Too long: dark. The label disappears with the light.
