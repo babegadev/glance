@@ -24,8 +24,8 @@ EXT_BUTTON_PIN = 2           # external trigger — short GPIO2 to GND
 BPM            = 12          # breaths per minute at full life (normal resting human)
 BPM_MIN        = 10           # slowest breathing before flatline
 DECAY_SECONDS  = 4          # seconds from full life to flatline
-MAX_BRIGHTNESS = 1.0         # global cap (0.0–1.0)
-MIN_BRIGHTNESS = 0.1        # dimmest the breathing trough gets
+MAX_BRIGHTNESS = 0.9         # global cap (0.0–1.0)
+MIN_BRIGHTNESS = 0.5        # dimmest the breathing trough gets
 
 # Colors (R, G, B)  — some presets:
 #   Warm white: (255, 220, 180)   Cool white: (255, 255, 255)
